@@ -5,10 +5,11 @@ Version:	4.4.0
 Release:	2
 License:	GPL
 Group:		Development/Tools
-Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://savannah.nongnu.org/download/avrdude/%{name}-%{version}.tar.gz
 # Source0-md5:	e9aec3dfaa022d5c6878aa355d69c83d
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/avrdude/
+BuildRequires:	automake
 BuildRequires:	readline-devel
 BuildRequires:	tetex-dvips
 BuildRequires:	tetex-fonts-latex
@@ -29,7 +30,7 @@ AVRDUDE to oprogramowanie do programowania mikrokontrolerów Atmel AVR.
 %patch0 -p1
 
 %build
-cp /usr/share/automake/config.sub .
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
