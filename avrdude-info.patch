@@ -1,0 +1,14 @@
+--- avrdude-4.2.0/doc/avrdude.texi.orig	Fri Sep  5 03:12:43 2003
++++ avrdude-4.2.0/doc/avrdude.texi	Thu Jan 15 13:25:55 2004
+@@ -17,9 +17,9 @@
+ 
+ @c This is a dir.info fragment to support semi-automated addition of
+ @c manuals to an info tree.
+-@dircategory AVR Programming & development tools.
++@dircategory Programming tools:
+ @direntry
+-* AvrDude: (avrdude).            AVR program downloader/uploader.
++* AvrDude: (avrdude).			AVR program downloader/uploader
+ @end direntry
+ 
+ @ifinfo
