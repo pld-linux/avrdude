@@ -1,12 +1,12 @@
 Summary:	Software for programming Atmel AVR Microcontrollers
 Summary(pl):	Oprogramowanie do programowania mikrokontrolerów Atmel AVR
 Name:		avrdude
-Version:	4.3.0
+Version:	4.4.0
 Release:	1
 License:	GPL
 Group:		Development/Tools
-Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.bz2
-# Source0-md5:	99ded29038a237c71a914518116b6af0
+Source0:	http://savannah.nongnu.org/download/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	e9aec3dfaa022d5c6878aa355d69c83d
 Patch0:		%{name}-info.patch
 URL:		http://savannah.nongnu.org/projects/avrdude/
 BuildRequires:	readline-devel
@@ -15,6 +15,7 @@ BuildRequires:	tetex-fonts-latex
 BuildRequires:	tetex-format-pdftex
 BuildRequires:	tetex-format-plain
 BuildRequires:	texinfo
+BuildRequires:	texinfo-texi2dvi
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
