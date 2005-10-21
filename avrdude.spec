@@ -55,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
 %{_infodir}/avr*
-%config(noreplace) %verify(not md5 size mtime) /etc/%{name}.conf
+%config(noreplace) %verify(not md5 size mtime) %{_sysconfdir}/%{name}.conf
