@@ -6,7 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://savannah.nongnu.org/download/avrdude/%{name}-%{version}.tar.gz
-# Source0-md5:	d50e733244de3644347fe8285f4145bc
+# Source0-md5:	ac21da160853f7cf7f3f0578c756a52c
 URL:		http://savannah.nongnu.org/projects/avrdude/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
