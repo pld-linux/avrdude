@@ -1,5 +1,5 @@
 Summary:	Software for programming Atmel AVR Microcontrollers
-Summary(pl):	Oprogramowanie do programowania mikrokontrolerów Atmel AVR
+Summary(pl.UTF-8):   Oprogramowanie do programowania mikrokontrolerÃ³w Atmel AVR
 Name:		avrdude
 Version:	5.0
 Release:	1
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 AVRDUDE is software for programming Atmel AVR Microcontrollers.
 
-%description -l pl
-AVRDUDE to oprogramowanie do programowania mikrokontrolerów Atmel AVR.
+%description -l pl.UTF-8
+AVRDUDE to oprogramowanie do programowania mikrokontrolerÃ³w Atmel AVR.
 
 %prep
 %setup -q
