@@ -16,6 +16,8 @@ BuildRequires:	automake
 BuildRequires:	libusb-devel
 BuildRequires:	readline-devel
 BuildRequires:	texinfo
+BuildRequires:	bison
+BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
