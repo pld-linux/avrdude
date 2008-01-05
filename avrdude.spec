@@ -13,11 +13,11 @@ Patch2:		%{name}-configure.patch
 URL:		http://savannah.nongnu.org/projects/avrdude/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
+BuildRequires:	bison
+BuildRequires:	flex
 BuildRequires:	libusb-devel
 BuildRequires:	readline-devel
 BuildRequires:	texinfo
-BuildRequires:	bison
-BuildRequires:	flex
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
