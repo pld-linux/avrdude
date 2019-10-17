@@ -3,7 +3,7 @@ Summary:	Software for programming Atmel AVR Microcontrollers
 Summary(pl.UTF-8):	Oprogramowanie do programowania mikrokontrolerów Atmel AVR
 Name:		avrdude
 Version:	6.3
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Tools
 Source0:	http://savannah.nongnu.org/download/avrdude/%{name}-%{version}.tar.gz
