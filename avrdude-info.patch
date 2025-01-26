@@ -1,6 +1,7 @@
---- avrdude-4.2.0/doc/avrdude.texi.orig	Fri Sep  5 03:12:43 2003
-+++ avrdude-4.2.0/doc/avrdude.texi	Thu Jan 15 13:25:55 2004
-@@ -17,9 +17,9 @@
+diff -up avrdude-7.1/src/doc/avrdude.texi._orig avrdude-7.1/src/doc/avrdude.texi
+--- avrdude-7.1/src/doc/avrdude.texi._orig	2023-01-08 22:28:14.000000000 +0100
++++ avrdude-7.1/src/doc/avrdude.texi	2023-02-19 14:15:25.591557094 +0100
+@@ -18,9 +18,9 @@
  
  @c This is a dir.info fragment to support semi-automated addition of
  @c manuals to an info tree.

@@ -1,0 +1,9 @@
+diff -up avrdude-8.0/src/elf2tag._orig avrdude-8.0/src/elf2tag
+--- avrdude-8.0/src/elf2tag._orig	2024-08-24 22:51:00.000000000 +0200
++++ avrdude-8.0/src/elf2tag	2024-09-01 12:07:47.240709744 +0200
+@@ -1,4 +1,4 @@
+-#!/usr/bin/env bash
++#!/bin/bash
+ 
+ # Part of the AVRDUDE project https://github.com/avrdudes/avrdude
+ # Published under GNU General Public License, version 2 (GPL-2.0)
